@@ -11,6 +11,6 @@ public class LoginTest extends BaseClass {
         Login log=new Login(driver);
         log.signin(prop.getProperty("name"), prop.getProperty("pwd") );
         log.click();
-    }
+        System.out.println("Now trying gitbash");
 
 }
